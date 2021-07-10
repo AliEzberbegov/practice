@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   
       <!-- Custom Style -->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
   
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,800" rel="stylesheet">
@@ -39,7 +39,7 @@
 
       <div class="row">
         <div class="col-12">
-          <input id="userInput" type="text" placeholder="New item..." maxlength="27">
+          <input id="userInput" type="text" placeholder="NEW TASKS..." maxlength="27">
           <button id="enter"><i class="fas fa-pencil-alt"></i></button>
         </div>
       </div>
@@ -57,10 +57,14 @@
       TOTAL GOALS: 
       <span id="total"></span>
     </div>
-    <div>
-      GOALS COMPLETED: 
-      <span id="achieved"></span>
+    <div class="overlay js-overlay-campaign">
+      <div class="popup js-popup-campaign">
+        <h2>CONGRATULATIONS!</h2>
+        You are well done! You have completed one of your the tasks, you are good at it. We believe in you!
+        <div class="close-popup js-close-campaign"></div>
+      </div>
     </div>
+    <script src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
     <script type="text/javascript" src="app.js"></script>
   </body>
 </html>
