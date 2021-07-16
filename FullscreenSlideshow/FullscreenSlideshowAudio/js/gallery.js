@@ -1,24 +1,19 @@
-$( function() {
-    var pictures = [],
-        $pointer = $( '#pointer' ),
-        $thumbnails = $( '#thumbnails' ),
-        $title = $( '#title' ),
-        $pause = $( '#pause' ),
-        $flash = $( '#flash' ),
-        $volume = $( '#volume' );
+$(function () {
+  var pictures = [],
+    $pointer = $("#pointer"),
+    $thumbnails = $("#thumbnails"),
+    $title = $("#title"),
+    $pause = $("#pause"),
+    $flash = $("#flash"),
+    $volume = $("#volume");
 
-    // Buzz audio library
+  // Buzz audio library
 
+  // jScrollPane
 
-    // jScrollPane
+  // Vegas Background
 
+  // Volume button
 
-    // Vegas Background
-    
-
-    // Volume button
-
-
-    // Photograph
-
+  // Photograph
 });
