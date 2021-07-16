@@ -4,4 +4,6 @@ var Actions = {
     USER_MESSAGE: 'user-message'
 }
 
-module.exports = Actions;
+if (typeof module !== 'undefined') {
+    module.exports = Actions;
+}
