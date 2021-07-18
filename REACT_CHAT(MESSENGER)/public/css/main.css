@@ -1,0 +1,152 @@
+html {
+  background-color: rgb(139, 5, 216);
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+body {
+  width: 530px;
+  background-color: rgb(202, 211, 238);
+  border-radius: 5px;
+  margin-top: 90px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+header {
+  border-radius: 5px 5px 0px 0px;
+  background-color: indigo;
+  color: bisque;
+  font-family: Bradley Hand, cursive;
+  text-align: center;
+  font-size: 180%;
+  margin-top: -10%;
+}
+
+header:hover {
+  transition: 0.5s;
+  background-color: rgb(141, 157, 207);
+}
+
+p {
+  border-radius: 5px;
+  text-align: center;
+  width: 330px;
+  background-color: chartreuse;
+  margin-top: -35%;
+  font-size: 28px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-shadow: 2px 2px 2px rgb(101, 3, 114);
+  float: left;
+  margin-left: -80%;
+}
+
+#container {
+  width: 100%;
+  margin: auto;
+  height: 100%;
+}
+
+.chat-messages {
+  position: relative;
+  border: 2px solid rgb(83, 73, 223);
+  background-color: rgb(68, 15, 192);
+  border-radius: 5px;
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 500px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+
+.chat-message {
+  color: white;
+  width: 100%;
+  min-height: 25px;
+  margin: 6px;
+}
+/*не копировать (Эзбербегов. А.Э)*/
+.chat-message-author {
+  width: 60px;
+  text-decoration: underline;
+  text-decoration-color: rgb(108, 159, 253);
+  font-family: Bradley Hand, cursive;
+  margin-left: -3%;
+}
+
+.chat-message-author:hover {
+  text-shadow: 1px 1px 1px rgb(250, 172, 250);
+}
+
+.chat-message-time {
+  color: rgb(108, 159, 253);
+  border-radius: 3px;
+  font-family: Bradley Hand, cursive;
+  float: right;
+  width: 15%;
+  margin-top: -25px;
+  margin-right: 1%;
+}
+
+.chat-message-time:hover {
+  text-shadow: 1px 1px 1px rgb(250, 172, 250);
+}
+
+.chat-message-content {
+  margin-left: -3%;
+  word-wrap: break-word;
+  font-family: Bradley Hand, cursive;
+}
+
+.chat-message-content:hover {
+  text-shadow: 1px 1px 1px rgb(250, 172, 250);
+}
+
+.chat-messages-empty {
+  color: aliceblue;
+  text-align: center;
+  font-family: Bradley Hand, cursive;
+}
+
+.chat-users {
+  text-transform: uppercase;
+  float: left;
+  margin-left: -67%;
+  font-size: 28px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-shadow: 2px 2px 2px rgb(160, 144, 0);
+}
+
+.form-control {
+  border-radius: 0px 0px 5px 5px;
+  background-color: aliceblue;
+  border: 3px solid rgb(43, 2, 109);
+  margin-top: 30%;
+  margin-bottom: 5%;
+}
+
+#connect-btn {
+  float: left;
+  font-family: Bradley Hand, cursive;
+  background-color: darkslateblue;
+}
+
+.activeUsers {
+  float: left;
+  margin-left: 59.1%;
+  margin-top: 8.9%;
+  margin-bottom: 50%;
+}
+
+.UsersOnFrame {
+  font-size: 28px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-shadow: 2px 2px 2px rgb(101, 3, 114);
+  text-align: center;
+  background-color: chartreuse;
+  width: 330px;
+  border-radius: 5px;
+  margin-left: -80%;
+  margin-bottom: 10px;
+}

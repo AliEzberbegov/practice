@@ -1,4 +1,4 @@
-/** @jsx React.DOM */
+/**@jsx React.DOM */
 
 "use strict";
 
@@ -7,6 +7,11 @@ var UsersList = React.createClass({
     var users = this.props.users.map(function (user) {
       return <div className="chat-user">{user}</div>;
     });
-    return <div className="col-xs-3 col-md-4 col-lg-4">{users}</div>;
+    return (
+      <div className="activeUsers">
+        <p>LIST OF ACTIVE USERS 💻</p>
+        <div className="UsersOnFrame">{users}</div>
+      </div>
+    );
   },
 });

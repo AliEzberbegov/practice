@@ -4,7 +4,7 @@ var PeertoPeerServer = require("peer").PeerServer;
 var express = require("express");
 var Actions = require("./public/src/Action.js");
 var app = express();
-var port = process.env.PORT || 7777;
+var port = process.env.PORT || 3000;
 
 app.use(express.static("public"));
 
@@ -13,7 +13,7 @@ var io = require("socket.io").listen(server);
 
 console.log(`Server is up on ${port} port`);
 
-var p2pServer = new PeertoPeerServer({ port: 9000, path: "chat" });
+var p2pServer = new PeertoPeerServer({ port: 9000, path: "/chat" });
 
 p2pServer.on("connection", function (id) {
   io.emit(Actions.USER_CONNECTED, id);
