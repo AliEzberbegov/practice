@@ -71,7 +71,6 @@ ChatEmitter.prototype.connect = function (username) {
     self.emit(Actions.USER_CONNECTED, {});
   });
 };
-
 ChatEmitter.prototype._connectTo = function (username) {
   var connection = this.peer.connect(username);
   connection.on(
